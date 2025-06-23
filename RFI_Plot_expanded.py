@@ -4,7 +4,7 @@ import seaborn as sns
 from matplotlib.patches import Patch
 
 # Load signal data (for histogram)
-df = pd.read_pickle("unique_signals_08_14_nozerodrift_cleaned.pkl")
+df = pd.read_pickle("unique_signals_08_14_nozerodrift_cleaned_2.pkl")
 
 # Load interval data (to shade)
 intervals = pd.read_csv("Known_c-band_RFI.csv")
